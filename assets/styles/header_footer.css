@@ -1,0 +1,87 @@
+header {
+    background-image: url('../images/familyfield-min.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: #582626 solid 5px;
+}
+
+.headerlink {
+    font: 4vw 'Merienda One', Helvetica, sans-serif;
+    color: #582626;
+    text-shadow: 2px 2px 2px beige;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    transition-duration: .5s;
+    text-decoration: none;
+}
+
+.headerlink:hover {
+    font-size: 5vw;
+    color: beige;
+    text-shadow: 2px 2px 2px #582626;
+}
+
+h1{
+    font: 3vw 'Merienda One', Helvetica, sans-serif;
+    color: #582626;
+    text-align: center;
+}
+
+p {
+    font: 1vw 'Merienda One', Helvetica, sans-serif;
+    color: #582626;
+    text-shadow: 2px 2px 2px beige;
+    text-align: center;
+    margin-top: 0;
+}
+
+header p {
+    margin-left: 10vw;
+    font: 1.5vw 'Merienda One', Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    background-color: #582626;
+    height: 3.5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav a {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: beige;
+    transition-duration: .5s;
+}
+
+nav a:hover {
+    color: lightblue;
+    font-size: 3em;
+}
+
+body {
+    background-color: beige;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    color: #582626;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+a:hover {
+    font-size: 1vw;
+
+}

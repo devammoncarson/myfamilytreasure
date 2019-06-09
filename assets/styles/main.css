@@ -1,0 +1,325 @@
+html {
+    background-image: url('../images/familyfield-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+    font: 4vw 'Merienda One', Helvetica, sans-serif;
+    color: #582626;
+    text-shadow: 2px 2px 2px beige;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.blueheader {
+    text-shadow: 2px 2px 2px lightblue;
+}
+
+.slogan {
+    margin-left: 10vw;
+    z-index: 1;
+	margin-top: 0;
+	font-size: 1.6em;
+}
+
+.pagetitle {
+    margin-left: 200px;
+}
+
+h2 {
+    font: 2vw 'Merienda One', Helvetica, sans-serif;
+    color: #582626;
+    text-shadow: 2px 2px 2px beige; 
+}
+
+.login {
+    margin-top: 150px;
+    margin-left: 100px;
+    height: 75px;
+    color: #582626;
+    font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    color: #582626;
+}
+input {
+    border: 2px solid #582626;
+    background-color: beige;
+    height: 25px;
+    width: 300px;
+    font-size: .85vw;
+    color: #582626;
+    font-weight: bold;
+	font-family: sans-serif;
+	padding-left: 6px;
+}
+
+input[type=text]:focus {
+    background-color: white;
+    transition-duration: .5s;
+}
+
+.input {
+	display: inline-block;
+}
+
+.button {
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #582626;
+    color: beige;
+    font-weight: bold;
+    background-color: #582626;
+    height: 50px;
+    width: 75px;
+    text-decoration: none;
+    border: 1px solid beige;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: beige;
+    transition-duration: .75s;
+    color: #582626;
+    border: 1px solid #582626;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    color: #582626;
+    text-decoration: none;
+}
+
+a:hover {
+    color: beige;
+    transition-duration: .5s;
+}
+
+
+.register {
+    color: beige;
+}
+.form {
+    border: 5px solid #582626;
+    background-color: beige;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.inputbox {
+    height: 120px;
+	width:  97%;
+	margin-left: 1%;
+	margin-right: 2%;
+    border: 5px solid #1662f6;
+    background-color: lightblue;
+    font-size: 1.25vw;
+    color: #582626;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+label {
+    color: #582626;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+table {
+    border-collapse: collapse;
+    background-color: lightblue;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+th {
+    border: 5px solid #582626;
+    padding: .9em .9em .9em .9em;
+    text-align: center;
+	color: #582626;
+	background-color: lightblue;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+td {
+    border: 5px solid #582626;
+    padding: .9em .9em .9em .9em;
+    text-align: center;
+    color: #582626;
+    font-weight: bold;
+	font-size: 1.25vw;
+	background-color: beige;
+}
+
+.tablebutton {
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #582626;
+    color: beige;
+    font-weight: bold;
+    background-color: #582626;
+    height: 50px;
+    width: 75px;
+    text-decoration: none;
+    border: 1px solid beige;
+    display: inline-block;
+}
+
+.tablebutton:hover {
+    background-color: beige;
+    transition-duration: .75s;
+    color: #582626;
+    border: 1px solid #582626;
+}
+
+.posteditbutton {
+    box-shadow: 3px 3px 3px #582626;
+    color: beige;
+    font-weight: bold;
+    background-color: #582626;
+    height: 50px;
+    width: 17%;
+    text-decoration: none;
+    border: 1px solid beige;
+    display: inline-block;
+	margin-left: 82%;
+	margin-right: 1%;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.posteditbutton:hover {
+    background-color: beige;
+    transition-duration: .75s;
+    color: #582626;
+    border: 1px solid #582626;
+}
+
+.mainerror {
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1vw;
+    background-color: #ffe5e5;
+    width: 70%;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1vw;
+    background-color: #ffe5e5;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+.mainfooter {
+    margin-top: 350px;
+}
+
+footer {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    margin-top: 50px;
+    font-weight: bold;
+    height: 100px;
+    border-top: 2px solid #582626;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a {
+    font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    color: #582626;
+    text-decoration: none;
+    font-size: 2em;
+    transition-duration: .5s;
+}
+
+footer a:hover {
+    color: #1662f6;
+    font-size: 2.4em;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    color: #582626;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 8vw;
+        text-align: center;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 3vw;
+        text-align: center;
+        margin: 0;
+    }
+    .pagetitle {
+        margin: 0;
+    }
+
+    .login {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .slogan {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .pagetitle {
+        margin: 0;
+    }
+
+    .login {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .slogan {
+        text-align: center;
+        margin-left: 0;
+    }
+
+}
